@@ -20,3 +20,5 @@ Overall, the hardest part of this project is the solving algorithm. On paper, al
 The biggest change that I’ve done to the project was the use of Graph and Vertex class at first, this idea was drawn on paper as I would just create every vertex and edge and use BFS and graph traversal to look for the solution. I then realized how much time this would have took and decided that we should expand the graph as we move to keep it simpler, this is where the hash map to check for duplicates came from idea came from.
 
 Made by Jun Pin Foo (225)
+
+Test App and Test cases - https://github.com/junpin-foo/TestRushHour
