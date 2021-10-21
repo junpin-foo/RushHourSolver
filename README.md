@@ -4,7 +4,7 @@ In this project I wrote a solver for the Rush Hour game. The input of this app w
 
 My solution utilizes BFS and hash map to find a path for which the red car reaches the exit. 
 
-##Documentation
+## Documentation
 My solution utilizes BFS and hash map to find a path for which the red car reaches the exit. For ease to storing data, I have decided to create two addition classes called Vehicles and Board. 
 
 In Vehicle class, we store all information for a specific vehicle, for example, its coordinates on the board, the orientation of the car, the name and its size. This is all done by my search function that looks for all relevant info for a name of the car on the Board given. On the other hand, the Board class hold information such as the board in char array, it also looks for all the name of vehicles and stores it in an array list. We lastly need to store information on moves, this is an array list which keep tracks of all previous and current moves needed to reach out current state in a string array list.
